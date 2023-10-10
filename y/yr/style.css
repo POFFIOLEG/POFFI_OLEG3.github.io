@@ -10,6 +10,27 @@ body {
     background-attachment: fixed;
 }
 
+a.dropdown-item {
+    background-color: #0004ff00;
+    color: aqua;
+    border-radius: 2.25rem;
+    border-color: #00000000;
+}
+
+ul.dropdown-menu {
+    background: -webkit-linear-gradient(to top right, #0d1718 40%, #0069ff 90%);
+    background: -moz-linear-gradient(to top right, #0d1718 40%, #0069ff 90%);
+    background: linear-gradient(to top right, #0d1718 40%, #0069ff 90%);
+    border-radius: 1.25rem;
+    border-color: #00000000;
+}
+
+.btn.btn-secondary.dropdown-toggle {
+    color: #ffffff;
+    background-color: #00000000;
+    border-color: #00000000;
+}
+
 
 
 header {
@@ -75,7 +96,7 @@ nav {
 
 
 .navbar-dark a {
-    color: red;
+    color: rgb(255, 255, 255);
 }
 
 
@@ -197,7 +218,7 @@ form {
 }
 
 form h3 {
-    text-align: left;
+    text-align: center;
 }
 
 .form label {
@@ -295,6 +316,41 @@ li {
     align-items: flex-start;
 }
 
+
+
+
+
+
+.container1 {
+    background-color: #fff;
+    padding: 20px;
+    margin: 50px auto;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"],
+select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
 
 
 
