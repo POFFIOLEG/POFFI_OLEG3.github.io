@@ -352,8 +352,14 @@ button {
     cursor: pointer;
 }
 
+div.container1 {
+    background-color: #0004ff;
+    color: white;
+}
 
-
+button.op {
+    background-color: #000000;
+}
 
 @media screen and (min-width: 415px) {
     body {
